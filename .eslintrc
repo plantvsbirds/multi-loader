@@ -1,0 +1,7 @@
+{
+  "extends": "webpack",
+  "rules": {
+    "no-param-reassign": 1,
+    "prefer-rest-params": 1
+  }
+}

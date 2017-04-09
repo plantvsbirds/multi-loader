@@ -1,1 +1,1 @@
-console.log(require("./test.css"));
+console.log(require('./test.css'));
