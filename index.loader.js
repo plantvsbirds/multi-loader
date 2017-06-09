@@ -5,6 +5,5 @@ module.exports.pitch = function(request) {
 	items = items.map(function(item) {
 		return "require(" + JSON.stringify("-!" + item + "!" + request) + ");";
 	});
-	var last = items.pop();
-	return items.join("\n") + "\nmodule.exports = " + last;
+	return items.join("\n") + "\nmodule.exports = " + "[" + items.join(",") + "]";
 };
