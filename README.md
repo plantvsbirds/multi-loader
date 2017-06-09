@@ -9,7 +9,8 @@
       src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
   </a>
   <h1>Multi-Loader</h1>
-  <p>This loader requires a module multiple times, each time loaded with a different loader. Like in a multi entry point the exports of the last item are exported.<p>
+  <p>This loader requires a module multiple times, each time loaded with a different loader. The exports of all items are exported in an Array.<p>
+  <p>It's a fork from <a href="https://github.com/webpack-contrib/multi-loader">multi-loader</a> but it acts totally different. Please don't confuse.</p>
 </div>
 
 <h2 align="center">Install</h2>
